@@ -1,0 +1,14 @@
+@using Places.Models;
+
+<form action="/places" method="post">
+    <p>Enter the name of the Location you visited!</p>
+    <label for="location">Location: </label>
+    <input id="location" name="location" type="string">
+    <p>Enter a description of what it was like! What did you see? Who did you go with?</p>
+    <label for="description">Description</label>
+    <input id="description" name="description" type="string">
+    <p>How long did you stay here for?</p>
+    <label for="duration">Duration</label>
+    <input id="duration" name="duration" type="string">
+    <button type="submit">Post to journal!</button>
+</form>
